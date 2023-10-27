@@ -1,0 +1,151 @@
+*{
+    padding: 0px;
+    margin: 0;
+    }
+    nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    position: fixed;
+    background: #fc9d9d;
+    }
+    nav span{
+    color: #5b56fb;
+    }
+    .logo{
+    font-size: 35px;
+    font-weight: 500;
+    padding-left: 30px;
+    }
+    nav ul{
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+    }
+    nav ul li{
+    display: inline-block;
+    margin: 10px 10px;
+    }
+    nav ul li a{
+    color: rgb(18, 18, 22);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 20px;
+    font: 900;
+    }
+    nav ul li a:hover{
+    color: red;
+    }
+    section{
+    height: 100vh;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .container,heading{
+    margin-top: 10px;
+    }
+    
+    /*HOME*/
+    
+    #home{
+    background-color: rgb(162, 214, 223);
+    background-image: url(girl.png);
+    background-size:cover ;
+    }
+    .container{
+    margin-top: 10px;
+    }
+    .container h2{
+    margin-top: 3%;
+    font-family: century;
+    padding-left: 450px;
+    padding-bottom: 25px;
+    font-size: 2rem;
+    align-items: center;
+    
+    }
+    .container h5{
+    padding-left: 500px;
+    align-items: center;
+    font-size: x-large;
+    }
+    .container h1{
+    font-size: xx-large;
+    text-align: center;
+    padding-bottom: 35px;
+    }
+    .container img{
+    width: 375px;
+    height: 400px;
+    padding-left: 200px;
+    padding-right: 150vh;
+    }
+    
+    /*ABOUT*/
+    
+    #about{
+    background-color: rgb(162, 214, 223);
+    display: flex;
+    flex-direction: column;
+    }
+    .heading{
+    margin-top: 10px;
+    }
+    #about h1{
+    margin:55px;
+    font-size: 3.5rem;
+    }
+    .heading{
+    
+    display: flex;
+    }
+    .heading img{
+    width: 500px;
+    height: 400px;
+    padding: 0px 30px;
+    }
+    .intro{
+    padding: 9px;
+    }
+    .intro h2{
+    font-size: 3rem;
+    }
+    .intro p{
+    padding: 10px;
+    font-size: 1.5rem;
+    }
+    div h3{
+        font-size: xx-large;
+    }
+    div h4{
+        font-size: 1.4rem;
+    }
+    
+    /*CONTACT*/
+    
+    #contact{
+    background-color: rgb(162, 214, 223);
+    }
+    .c3{
+    margin-top: 10px;
+    }
+    .c3 h2{
+    font-size: 3.5rem;
+    padding:40px;
+    }
+    .c3 form label{
+        padding-left: 20px;
+        display: inline-block;
+        text-align: right;
+        float: left;
+    }
+    .c3 form input{
+        display: inline-block;
+        text-align: left;
+        float: right;
+    }
+    
